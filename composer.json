@@ -1,0 +1,24 @@
+{
+	"name": "cocoa/captcha",
+	"description": "PHP Captcha Package",
+	"keywords": ["Captcha"],
+	"homepage": "https://github.com/cocoq/captcha",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "MX Ma",
+			"email": "3287679972@qq.com",
+			"homepage": "https://github.com/cocoq"
+		}
+	],
+	"require": {
+		"php": ">=5.4",
+		"ext-gd": "*",
+		"intervention/image": "~2.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Cocoa\\Captcha\\": "src/"
+		}
+	}
+}
